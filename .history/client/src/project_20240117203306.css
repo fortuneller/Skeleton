@@ -1,0 +1,25 @@
+#works {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    padding:0 1rem;
+}
+
+
+.worksTitle{
+    margin: 1rem 0;
+    
+}
+Img worksImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 300px;
+}

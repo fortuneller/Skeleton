@@ -1,0 +1,22 @@
+#intro {
+height: calc(100vh -4rem);
+width: 100vw;
+max-width: 75rem;
+margin: 0 auto;
+overflow: hidden;
+position: relative;
+}
+
+.bg{
+    position:absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.introContent {
+    height: 100vh;
+    width
+}

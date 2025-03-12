@@ -1,0 +1,18 @@
+import { Link } from 'react-router-dom';
+import '../src/index.css'
+import '../src/about.css'
+export default function () {
+     return <>
+     
+     <section id="skill">
+         
+          <span className="skillTitle">What I do</span>
+          <span className="skillDesc">I am a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites. I have a strong understanding of design and a keen eye for detail. I am proficient in HTML, CSS, and JavaScript, as well as design software such as Adobe Photoshop and illustrator.</span> 
+          <div className="skillBar">
+               <img src={ux} alt="UIDesign" className="skillBarImg" />
+               <div className="skillBarText">
+               <h2>UI/UX Design</h2>
+               <p>This is a demo text, you can write your own content here.</p>
+               </div>
+
+          </div>
